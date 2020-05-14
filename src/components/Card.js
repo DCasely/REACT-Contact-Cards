@@ -11,13 +11,13 @@ export default function Card(props) {
         </div>
         <div className="bottom info">
           <h3>{props.title}</h3>
-          <a href={props.linkedInURL} target="_blank">
+          <a href={props.linkedInURL} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href={props.twitterURL} target="_blank">
+          <a href={props.twitterURL} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href={props.facebookURL} target="_blank">
+          <a href={props.facebookURL} target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook"></i>
           </a>
         </div>
